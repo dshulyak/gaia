@@ -35,3 +35,8 @@ require (
 	google.golang.org/genproto v0.0.0-20190701230453-710ae3a149df // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
+
+replace (
+	github.com/cosmos/cosmos-sdk => github.com/dshulyak/cosmos-sdk v0.37.5-0.20200102055306-7b7669474383
+	github.com/tendermint/tendermint => github.com/dshulyak/tendermint v0.32.8-0.20200102074508-2bda8149f1ee
+)
